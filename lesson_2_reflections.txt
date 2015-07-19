@@ -1,0 +1,18 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, Git creates hidden metadata within that
+directory. This step is necessary because the metadata needs to exist before
+Git can start tracking the differences between commits. When you first
+initialize a repository, Git does not make a commit. So there's no version
+history until you make the first commit manually.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area is different from the working directory in that you can
+selectively upload specific files to the staging area rather than the
+entire directory. The staging area is different from the repository because
+it is just a temporary space to organize files before you save them to a
+commit. The value of the staging area is that you can organize the files
+you use in a commit based on a single conceptual idea. It helps you organize
+clear, intuitive commits.
