@@ -56,4 +56,13 @@ Any code that was deleted from that point in one branch will be deleted from the
 merged commit, and any code that was added in one branch will be added to the new
 merged commit as well. In the diagram, we draw lines connecting this new merged commit
 with the most recent commit in both branches to show that they are both considered
-parents of the new commit. 
+parents of the new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+One pro of automatic merging is that it's fast and there's no chance for human error.
+On the other hand, automatic merging won't know what to do if two branches each
+include changes to the same part of a file. In that case, Git will always alert the
+user to the conflict, even if the resolution of the conflict is obvious to the
+human user. 
