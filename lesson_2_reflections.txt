@@ -35,4 +35,12 @@ changes. Branches enable this by letting you switch back to the original version
 if anything goes wrong, or if you just don't like how the changes play out. Branches
 can also help if you want to make a specialized version of your main project (e.g.,
 one optimized for a different device or browser, or translated into a different
-language). 
+language).
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams of branch structure show the most recent commits in each branch and then
+go backward possibly as far back as the beginning of the project. This shows each
+commit in terms of its parent as well as which commits are reachable from each
+branch. Diagrams can also show exactly when a new branch was started, and thus how
+much code the branches have in common. 
