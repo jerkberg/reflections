@@ -24,4 +24,15 @@ The staging area allows you to compare a specific file or files with what's in
 the most recent commit. That way you can see exactly what changes will be made 
 in the next commit. So if there are multiple unrelated changes, you can go back 
 and change the file in the staging area so that every change is related to the same
-conceptual idea. 
+conceptual idea.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches can keep your history organized if you want to preserve the status of your
+master branch but also see how your project would work if you made experimental 
+changes. Branches enable this by letting you switch back to the original version
+if anything goes wrong, or if you just don't like how the changes play out. Branches
+can also help if you want to make a specialized version of your main project (e.g.,
+one optimized for a different device or browser, or translated into a different
+language). 
