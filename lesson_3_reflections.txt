@@ -10,4 +10,15 @@ automatically stay up-to-date with your remote repository?
 
 You wouldn't want Git to automatically pull from the remote repository in case
 someone else added or removed something that would interfere with the work you
-were doing in your working directory. 
+were doing in your working directory.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+A branch is a separate "version" of a project where both exist on the same local
+directory. A clone is a duplicate of a repository from a remote directory to a local
+directory, or from one local directory to another. A fork is like a clone, but the
+original repository and the clone both exist on GitHub. Typically, a fork is used
+when you want to modify an existing repository that may belong to someone else. So
+you don't want to change their version, but you also want your version to point back
+to the original one.
