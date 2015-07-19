@@ -16,3 +16,12 @@ it is just a temporary space to organize files before you save them to a
 commit. The value of the staging area is that you can organize the files
 you use in a commit based on a single conceptual idea. It helps you organize
 clear, intuitive commits.
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+The staging area allows you to compare a specific file or files with what's in 
+the most recent commit. That way you can see exactly what changes will be made 
+in the next commit. So if there are multiple unrelated changes, you can go back 
+and change the file in the staging area so that every change is related to the same
+conceptual idea. 
