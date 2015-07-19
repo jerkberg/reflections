@@ -43,4 +43,17 @@ Diagrams of branch structure show the most recent commits in each branch and the
 go backward possibly as far back as the beginning of the project. This shows each
 commit in terms of its parent as well as which commits are reachable from each
 branch. Diagrams can also show exactly when a new branch was started, and thus how
-much code the branches have in common. 
+much code the branches have in common.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+When two branches are merged together, Git creates a new commit that combines the
+changes from both branches, with the most recent commits from each branch serving
+as the parents of the new merged commit. To determine which changes to include in the
+merged version, Git first looks at the last commit before the branches separated. 
+Any code that was deleted from that point in one branch will be deleted from the new
+merged commit, and any code that was added in one branch will be added to the new
+merged commit as well. In the diagram, we draw lines connecting this new merged commit
+with the most recent commit in both branches to show that they are both considered
+parents of the new commit. 
