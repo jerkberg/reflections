@@ -41,3 +41,13 @@ wanted to quickly refer to a list of all changes, you'd have to make one yoursel
 (in a spreadsheet, most likely). GitHub makes all of this record-keeping much easier
 by doing it all automatically. The trade-off is that there are more steps to save
 changes and implement them in the live project.
+
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+You would want to make changes in a separate branch if you are working on a project
+collaboratively. That way, you can submit a pull request and have your collaborator
+approve of your changes before merging them into the master branch. You might also
+make changes in a separate branch if you wanted to preserve the current functionality
+of the master branch. The drawback to this is that it's a lot more complicated to
+eventually merge those changes into the main branch if there are conflicts.
