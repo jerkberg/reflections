@@ -22,3 +22,10 @@ original repository and the clone both exist on GitHub. Typically, a fork is use
 when you want to modify an existing repository that may belong to someone else. So
 you don't want to change their version, but you also want your version to point back
 to the original one.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+It's useful to have a copy of the last known state of the remote stored locally so
+you can see everyone else's changes (if you're working collaboratively). It's also
+useful to have for your own reference, so you know what changes are currently public.
