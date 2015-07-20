@@ -29,3 +29,15 @@ locally?
 It's useful to have a copy of the last known state of the remote stored locally so
 you can see everyone else's changes (if you're working collaboratively). It's also
 useful to have for your own reference, so you know what changes are currently public.
+
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+Without using Git or GitHub, you would have to find another way to log your changes
+and let your collaborators know about each one when it's made. You could just write
+an email to your collaborators detailing every change you make, and have them email
+you when they make changes. But doing that manually could get tedious. Plus, if you
+wanted to quickly refer to a list of all changes, you'd have to make one yourself
+(in a spreadsheet, most likely). GitHub makes all of this record-keeping much easier
+by doing it all automatically. The trade-off is that there are more steps to save
+changes and implement them in the live project.
